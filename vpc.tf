@@ -1,6 +1,6 @@
 module "vpc" {
  source  = "app.terraform.io/PalmaInc/network/google"
-  version = "3.5.0"
+  version = "3.4.0"
 
     project_id   = "p-uhvybumfpbw9-0"
     network_name = "${var.prefix}-vpc"
